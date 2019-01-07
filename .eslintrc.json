@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["react-app", "eslint:recommended", "plugin:jsx-a11y/recommended"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier", "react"],
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "linebreak-style": ["error", "unix"],
+    "prettier/prettier": "error",
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "jsx-a11y/no-autofocus": "off",
+    "jsx-a11y/no-onchange": "off",
+    "no-unused-expressions": 0
+  }
+}
