@@ -1,0 +1,27 @@
+.Resume {
+  background: #E9E9E9;
+  padding: 0 10.5%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .Resume__col-left {
+    flex: none;
+    min-width: 230px;
+    width: 25%;
+  }
+
+  .Resume__container {
+    display: flex;
+    height: 100%;
+    flex: 1;
+  }
+
+  @media print {
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+@page {
+  margin: 0;
+}

@@ -1,0 +1,19 @@
+@import 'skeleton';
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #E9E9E9;
+  color: #241F21;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1200px;
+}

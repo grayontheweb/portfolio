@@ -1,0 +1,21 @@
+.ResumeContent {
+  padding: 0 5rem;
+
+  h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__professional-experience {
+    list-style: none;
+    padding: 0;
+
+    li {
+      h6 {
+        font-weight: bold;
+        margin: 0;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
