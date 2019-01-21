@@ -5,11 +5,13 @@ module.exports = {
     author: '@grayontheweb',
   },
   plugins: [
+    'gatsby-plugin-favicon',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
     'gatsby-transformer-json',
     'gatsby-transformer-remark',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -24,7 +26,6 @@ module.exports = {
         path: `${__dirname}/data/resume/`,
       },
     },
-    'gatsby-transformer-sharp',
   ],
   mapping: {
     'ResumeJson.education': 'EducationJson',
