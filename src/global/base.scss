@@ -12,6 +12,10 @@ html {
 body {
   font-family: 'Muli', sans-serif;
 
+  .print-only {
+    display: none;
+  }
+
   @media print {
     -webkit-print-color-adjust: exact;
 
