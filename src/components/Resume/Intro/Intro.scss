@@ -1,0 +1,53 @@
+@import '../../../global/variables.scss';
+
+.ResumeIntro {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+  justify-content: center;
+
+  &__image {
+    flex: none;
+    margin-right: 1rem;
+    max-width: 300px;
+    width: 100%;
+  }
+
+  &__content {
+    flex: 1;
+    text-align: center;
+  }
+
+  &__name {
+    color: $blue;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__contact {
+    text-align: center;
+    ul {
+      display: inline;
+      margin-left: 1rem;
+
+      li {
+        display: inline;
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 820px) {
+    display: initial;
+    margin: 0 auto;
+
+    &__content {
+      margin: 0 auto;
+      max-width: 600px;
+    }
+
+    &__image {
+      display: none;
+    }
+  }
+}

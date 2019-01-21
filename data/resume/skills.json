@@ -1,0 +1,103 @@
+[
+  {
+    "id": "LANGUAGES",
+    "heading": "Languages",
+    "items": [
+      "JavaScript (ES5, ES6)",
+      "TypeScript",
+      "Node.js",
+      "GraphQL",
+      "Ruby",
+      "PHP",
+      "CSS (Sass/SCSS, Less)",
+      "HTML5"
+    ]
+  },
+  {
+    "id": "FRAMEWORKS",
+    "heading": "Frameworks",
+    "items": [
+      "Express.js",
+      "React.js",
+      "Redux",
+      "Apollo",
+      "Gatsby",
+      "Jekyll",
+      "Angular 1.5",
+      "Angular 2",
+      "Backbone.js",
+      "Ruby on Rails"
+    ]
+  },
+  {
+    "id": "LIBRARIES",
+    "heading": "Libraries",
+    "items": [
+      "Immutable.js",
+      "Bacon.js",
+      "Lodash",
+      "Underscore",
+      "jQuery"
+    ]
+  },
+  {
+    "id": "TESTING",
+    "heading": "Testing",
+    "items": [
+      "Jasmine, Mocha, Chai, Jest",
+      "Enzyme"
+    ]
+  },
+  {
+    "id": "BUILDTOOLS",
+    "heading": "Build Tools",
+    "items": [
+      "Webpack",
+      "Gulp",
+      "Grunt",
+      "Browserify"
+    ]
+  },
+  {
+    "id": "CSS",
+    "heading": "CSS",
+    "items": [
+      "Sass",
+      "SCSS",
+      "Less",
+      "BEM",
+      "Bootstrap",
+      "Foundation",
+      "Compass",
+      "Bourbon"
+    ]
+  },
+  {
+    "id": "VERSIONCONTROL",
+    "heading": "Version Control",
+    "items": [
+      "Git",
+      "SVN"
+    ]
+  },
+  {
+    "id": "DESIGNTOOLS",
+    "heading": "Design Tools",
+    "items": [
+      "Photoshop",
+      "Illustrator",
+      "Sketch",
+      "Zeplin"
+    ]
+  },
+  {
+    "id": "OTHER",
+    "heading": "Other",
+    "items": [
+      "CraftCMS",
+      "Shopify",
+      "Wordpress",
+      "HTML email"
+    ]
+  }
+]

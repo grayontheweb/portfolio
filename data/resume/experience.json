@@ -1,0 +1,50 @@
+[
+  {
+    "id": "NIFTYTRADESOFGRAY",
+    "companyName": "Nifty Trades of Gray, LLC",
+    "companyUrl": "https://grayontheweb.com",
+    "jobBullets": [],
+    "jobDescription": "Contracting front-end development services for a variety of clients on a short term basis using the front-end technologies of their choice.",
+    "jobTitle": "Freelance Web Developer",
+    "projects": [
+      "Replay Gaming",
+      "Cooler.tv"
+    ],
+    "startDate": "June 2015"
+  },
+  {
+    "id": "BLETCHLEYPARK",
+    "companyName": "Bletchley Park",
+    "companyUrl": "https://bletchley.co",
+    "jobBullets": [
+      "Build and deliver complete codebases using the most appropriate front-end technologies for each project on a case-by-case basis",
+      "Develop internal projects for use by project managers and other staff, with an emphasis on the use of cutting-edge frameworks and libraries"
+    ],
+    "jobDescription": "Front-end developer working on small teams to meet the needs of a wide variety of clients, ranging from non-profit organizations to large technology companies.",
+    "jobTitle": "Front-End Web Developer",
+    "projects": [
+      "Renaissance Learning",
+      "Samsung Strategy and Innovation Center",
+      "Third Way",
+      "The Breakthrough Institute",
+      "The Telluride Film Festival",
+      "VuHaus",
+      "Public Media Company"
+    ],
+    "startDate": "January 2015"
+  },
+  {
+    "id": "LUXURYREALESTATE",
+    "companyName": "LuxuryRealEstate.com",
+    "companyUrl": "https://www.luxuryrealestate.com/",
+    "jobBullets": [
+      "Helmed the modernization of the main application’s front end, refactoring legacy code, reducing technical debt, and converting the client-facing site to a responsive layout",
+      "Designed, architected, and implemented a JavaScript library for searching real estate listings via Leaflet mapping API to be used throughout the various in-house applications"
+    ],
+    "jobDescription": "In-house front-end developer for real estate aggregate site targeted at luxury realtors.",
+    "jobTitle": "Front-End Web Developer",
+    "projects": [],
+    "startDate": "April 2014",
+    "endDate": "January 2015"
+  }
+]

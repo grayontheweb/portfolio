@@ -1,4 +1,6 @@
-@import 'skeleton';
+@import './normalize.scss';
+@import './typography.scss';
+@import './variables.scss';
 
 html {
   box-sizing: border-box;
@@ -9,11 +11,39 @@ html {
 }
 
 body {
-  background: #E9E9E9;
-  color: #241F21;
+  font-family: 'Muli', sans-serif;
+
+  @media print {
+    -webkit-print-color-adjust: exact;
+
+    .no-print {
+      display: none;
+    }
+
+    .print-only {
+      display: initial;
+    }
+  }
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .content {
+  box-sizing: content-box;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 960px;
+  padding: 0 1rem;
 }

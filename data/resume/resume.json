@@ -1,0 +1,37 @@
+{
+  "contact": {
+    "email": "grayontheweb@gmail.com"
+  },
+  "education": [
+    "DUQUESNEUNIVERSITY"
+  ],
+  "experience": [
+    "NIFTYTRADESOFGRAY",
+    "BLETCHLEYPARK",
+    "LUXURYREALESTATE"
+  ],
+  "name": "Gray Sutherland",
+  "profile": "Detail-oriented Front-End Web Developer with 5+ years experience delivering high quality user interfaces to a wide variety of clients. Highly skilled in all facets of modern JavaScript development, with a special interest in React.js, GraphQL, and the Apollo stack.",
+  "skills": [
+    "LANGUAGES",
+    "FRAMEWORKS",
+    "LIBRARIES",
+    "TESTING",
+    "BUILDTOOLS",
+    "CSS",
+    "VERSIONCONTROL",
+    "DESIGNTOOLS",
+    "OTHER"
+  ],
+  "social": [
+    {
+      "title": "GitHub",
+      "url": "https://github.com/grayontheweb"
+    },
+    {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gray-sutherland-4a5415b6/"
+    }
+  ],
+  "title": "Front-End Developer"
+}

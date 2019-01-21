@@ -1,27 +1,43 @@
+@import '../../global/variables.scss';
+
 .Resume {
-  background: #E9E9E9;
-  padding: 0 10.5%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  padding-top: 5rem;
 
-  .Resume__col-left {
-    flex: none;
-    min-width: 230px;
-    width: 25%;
+  .print-only {
+    display: none;
   }
 
-  .Resume__container {
+  &__container {
     display: flex;
-    height: 100%;
-    flex: 1;
   }
 
-  @media print {
-    -webkit-print-color-adjust: exact;
+  &__col-left {
+    margin-right: 2rem;
+    width: 300px;
+    flex: none;
   }
-}
 
-@page {
-  margin: 0;
+  &__heading {
+    background: $blue;
+    color: $white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  &__section {
+    margin-bottom: 2rem;
+  }
+
+  @media only screen and (max-width: 820px) {
+    &__container {
+      display: block;
+    }
+
+    &__col-left {
+      width: 100%;
+    }
+  }
 }
