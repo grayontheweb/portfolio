@@ -1,5 +1,4 @@
 @import './normalize.scss';
-@import './typography.scss';
 @import './variables.scss';
 
 html {
@@ -47,3 +46,5 @@ a {
   max-width: 960px;
   padding: 0 1rem;
 }
+
+@import './typography.scss';
