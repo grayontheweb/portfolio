@@ -14,6 +14,27 @@ const ResumeIntro = ({ data }) => (
             }
           }
         }
+
+        homeContent: allMarkdownRemark(
+          filter: { fileAbsolutePath: { regex: "/data/home/" } }
+        ) {
+          edges {
+            node {
+              frontmatter {
+                title
+              }
+
+              html
+            }
+          }
+        }
+
+        contact: homeJson {
+          links {
+            url
+            title
+          }
+        }
       }
     `}
     render={data => {
@@ -21,7 +42,16 @@ const ResumeIntro = ({ data }) => (
         return null;
       }
 
-      return <HomeComponent {...data} />;
+      const homeContent = data.homeContent.edges[0].node;
+      const contactLinks = data.contact.links;
+
+      return (
+        <HomeComponent
+          introImage={data.introImage}
+          homeContent={homeContent}
+          contactLinks={contactLinks}
+        />
+      );
     }}
   />
 );
