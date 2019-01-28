@@ -13,10 +13,17 @@ $minimum-breakpoint: 42.5rem;
 
   h1 {
     color: $blue;
-    margin-top: 5rem;
+    position: absolute;
+    top: 6.5rem;
+
+    @media only screen and (max-width: $content-max-width + ($content-gutter * 2)) {
+      top: 4rem;
+    }
 
     @media only screen and (max-width: $minimum-breakpoint) {
       margin-top: 2rem;
+      position: relative;
+      top: unset;
     }
   }
 
@@ -73,13 +80,27 @@ $minimum-breakpoint: 42.5rem;
     display: flex;
     flex: 1;
     flex-direction: column;
+    position: relative;
   }
 
   &__info {
     background: $grey;
     margin-bottom: 1rem;
-    padding: 1rem;
+    margin-top: $content-max-width / 6;
+    padding: 1rem 2rem;
     flex: 1;
+
+    p {
+      line-height: 1.4;
+    }
+
+    @media only screen and (max-width: $content-max-width + ($content-gutter * 2)) {
+      margin-top: 7.5rem;
+    }
+
+    @media only screen and (max-width: $minimum-breakpoint) {
+      margin-top: 0;
+    }
   }
 
   &__contact {
