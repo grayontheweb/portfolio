@@ -1,27 +1,12 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 
-import ResumeIntroComponent from './Intro';
+import HomeComponent from './Home';
 
-const ResumeIntro = () => (
+const ResumeIntro = ({ data }) => (
   <StaticQuery
     query={graphql`
-      query ResumeIntroQuery {
-        intro: resumeJson {
-          name
-          profile
-          title
-
-          contact {
-            email
-          }
-
-          social {
-            title
-            url
-          }
-        }
-
+      query HomeQuery {
         introImage: file(relativePath: { eq: "profile.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 480) {
@@ -36,7 +21,7 @@ const ResumeIntro = () => (
         return null;
       }
 
-      return <ResumeIntroComponent {...data} />;
+      return <HomeComponent {...data} />;
     }}
   />
 );

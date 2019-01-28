@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Resume from '../components/Resume';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
+import Home from '../components/Home';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Resume - Gray Sutherland" />
-    <Resume />
+    <SEO title="Gray Sutherland" />
+    <Home />
   </Layout>
 );
 

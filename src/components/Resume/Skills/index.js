@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from 'gatsby';
 
 import ResumeSkillsComponent from './Skills';
 
-const ResumeSkills = ({ data }) => (
+const ResumeSkills = () => (
   <StaticQuery
     query={graphql`
       query ResumeSkillsQuery {

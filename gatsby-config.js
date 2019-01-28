@@ -26,6 +26,13 @@ module.exports = {
         path: `${__dirname}/data/resume/`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'home',
+        path: `${__dirname}/data/home/`,
+      },
+    },
   ],
   mapping: {
     'ResumeJson.education': 'EducationJson',

@@ -47,8 +47,8 @@ a {
 .content {
   box-sizing: content-box;
   margin: 0 auto;
-  max-width: 960px;
-  padding: 0 1rem;
+  max-width: $content-max-width;
+  padding: 0 $content-gutter;
 }
 
 @import './typography.scss';
