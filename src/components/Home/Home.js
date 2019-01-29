@@ -36,7 +36,8 @@ const Home = ({ contactLinks, homeContent, introImage }) => (
 
         <div className="Home__contact">
           <form className="Home__form">
-            <h3>Get in touch:</h3>
+            <h3>Get in Touch:</h3>
+
             <div className="Home__form__row">
               <label htmlFor="subject">
                 Subject
@@ -49,6 +50,10 @@ const Home = ({ contactLinks, homeContent, introImage }) => (
                 Body
                 <textarea name="body" />
               </label>
+            </div>
+
+            <div className="Home__form__row">
+              <button type="submit">Send</button>
             </div>
           </form>
         </div>

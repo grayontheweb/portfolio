@@ -1,5 +1,6 @@
 @import '../../global/variables.scss';
 
+$medium-breakpoint: $content-max-width + ($content-gutter * 2);
 $minimum-breakpoint: 42.5rem;
 
 .Home {
@@ -11,26 +12,10 @@ $minimum-breakpoint: 42.5rem;
     padding-top: 2rem;
   }
 
-  h1 {
-    color: $blue;
-    position: absolute;
-    top: 6.5rem;
-
-    @media only screen and (max-width: $content-max-width + ($content-gutter * 2)) {
-      top: 4rem;
-    }
-
-    @media only screen and (max-width: $minimum-breakpoint) {
-      margin-top: 2rem;
-      position: relative;
-      top: unset;
-    }
-  }
-
   &__left-col {
     box-sizing: border-box;
     flex: none;
-    padding-right: $content-gutter / 2;
+    padding-right: $content-gutter;
     position: relative;
     width: $content-max-width / 3;
 
@@ -38,7 +23,7 @@ $minimum-breakpoint: 42.5rem;
       display: none;
     }
 
-    @media only screen and (max-width: $content-max-width + ($content-gutter * 2)) {
+    @media only screen and (max-width: $medium-breakpoint) {
       width: 15rem;
     }
 
@@ -73,7 +58,7 @@ $minimum-breakpoint: 42.5rem;
   }
 
   &__right-col {
-    padding-left: $content-gutter / 2;
+    padding-left: $content-gutter;
   }
 
   &__content {
@@ -81,12 +66,28 @@ $minimum-breakpoint: 42.5rem;
     flex: 1;
     flex-direction: column;
     position: relative;
+
+    h1 {
+      color: $blue;
+      position: absolute;
+      top: 6rem;
+
+      @media only screen and (max-width: $medium-breakpoint) {
+        top: 3.5rem;
+      }
+
+      @media only screen and (max-width: $minimum-breakpoint) {
+        margin-top: 2rem;
+        position: relative;
+        top: unset;
+      }
+    }
   }
 
   &__info {
     background: $grey;
     margin-bottom: 1rem;
-    margin-top: $content-max-width / 6;
+    margin-top: ($content-max-width / 6) - ($content-gutter / 2);
     padding: 1rem 2rem;
     flex: 1;
 
@@ -94,8 +95,8 @@ $minimum-breakpoint: 42.5rem;
       line-height: 1.4;
     }
 
-    @media only screen and (max-width: $content-max-width + ($content-gutter * 2)) {
-      margin-top: 7.5rem;
+    @media only screen and (max-width: $medium-breakpoint) {
+      margin-top: 7.5rem - ($content-gutter / 2);
     }
 
     @media only screen and (max-width: $minimum-breakpoint) {
@@ -105,10 +106,10 @@ $minimum-breakpoint: 42.5rem;
 
   &__contact {
     margin-left: $content-max-width / 3;
-    padding-left: $content-gutter / 2;
+    padding-left: $content-gutter;
     max-width: 100%;
 
-    @media only screen and (max-width: $content-max-width + ($content-gutter * 2)) {
+    @media only screen and (max-width: $medium-breakpoint) {
       margin-left: 0;
       padding-left: 0;
     }
@@ -118,7 +119,7 @@ $minimum-breakpoint: 42.5rem;
     h3 {
       color: $blue;
       margin-bottom: 1rem;
-      text-transform: uppercase;
+      // text-transform: uppercase;
     }
 
     &__row {
@@ -142,6 +143,16 @@ $minimum-breakpoint: 42.5rem;
         max-width: 100%;
         resize: vertical;
         width: 100%;
+      }
+
+      button {
+        background: $blue;
+        border: none;
+        color: white;
+        cursor: pointer;
+        display: block;
+        margin-left: auto;
+        padding: 0.4rem 0.75rem;
       }
     }
   }
