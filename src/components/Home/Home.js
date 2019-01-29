@@ -41,6 +41,8 @@ const Home = ({ contactLinks, homeContent, introImage }) => (
             method="POST"
             data-netlify="true"
           >
+            <input type="hidden" name="form-name" value="contact" />
+
             <h3>Get in Touch:</h3>
 
             <div className="Home__form__row">
@@ -51,9 +53,9 @@ const Home = ({ contactLinks, homeContent, introImage }) => (
             </div>
 
             <div className="Home__form__row">
-              <label htmlFor="body">
-                Body
-                <textarea name="body" />
+              <label htmlFor="message">
+                Message
+                <textarea name="message" />
               </label>
             </div>
 
