@@ -35,7 +35,12 @@ const Home = ({ contactLinks, homeContent, introImage }) => (
         />
 
         <div className="Home__contact">
-          <form className="Home__form" method="POST" data-netlify="true">
+          <form
+            className="Home__form"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+          >
             <h3>Get in Touch:</h3>
 
             <div className="Home__form__row">
