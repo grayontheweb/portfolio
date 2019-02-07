@@ -14,27 +14,6 @@ const ResumeIntro = ({ intro, introImage }) => (
       <h2 className="ResumeIntro__title">{intro.title}</h2>
 
       <p className="ResumeIntro__profile">{intro.profile}</p>
-
-      <div className="print-only">
-        <p>{intro.contact.email}</p>
-      </div>
-
-      <div className="ResumeIntro__contact no-print">
-        <p>
-          Contact me:
-          <ul>
-            <li>
-              <a href={`mailto:${intro.contact.email}`}>Email</a>
-            </li>
-
-            {intro.social.map((social, index) => (
-              <li key={index}>
-                <a href={social.url}>{social.title}</a>
-              </li>
-            ))}
-          </ul>
-        </p>
-      </div>
     </div>
   </div>
 );

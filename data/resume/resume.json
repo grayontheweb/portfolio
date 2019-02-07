@@ -1,7 +1,4 @@
 {
-  "contact": {
-    "email": "grayontheweb@gmail.com"
-  },
   "education": [
     "DUQUESNEUNIVERSITY"
   ],
@@ -22,16 +19,6 @@
     "VERSIONCONTROL",
     "DESIGNTOOLS",
     "OTHER"
-  ],
-  "social": [
-    {
-      "title": "GitHub",
-      "url": "https://github.com/grayontheweb"
-    },
-    {
-      "title": "LinkedIn",
-      "url": "https://www.linkedin.com/in/gray-sutherland-4a5415b6/"
-    }
   ],
   "title": "Front-End Developer"
 }

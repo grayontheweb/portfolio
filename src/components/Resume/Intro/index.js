@@ -11,15 +11,6 @@ const ResumeIntro = () => (
           name
           profile
           title
-
-          contact {
-            email
-          }
-
-          social {
-            title
-            url
-          }
         }
 
         introImage: file(relativePath: { eq: "profile.jpg" }) {
