@@ -4,7 +4,7 @@
     "companyName": "Nifty Trades of Gray, LLC",
     "companyUrl": "https://grayontheweb.com",
     "jobBullets": [],
-    "jobDescription": "Contracting front-end development services for a variety of clients on a short term basis using the front-end technologies of their choice.",
+    "jobDescription": "Providing front-end development contracting services for client using the front-end technologies of their choice.",
     "jobTitle": "Freelance Web Developer",
     "projects": [
       "Replay Gaming",
@@ -17,12 +17,15 @@
     "companyName": "Bletchley Park",
     "companyUrl": "https://bletchley.co",
     "jobBullets": [
-      "Build and deliver complete codebases using the most appropriate front-end technologies for each project on a case-by-case basis",
-      "Develop internal projects for use by project managers and other staff, with an emphasis on the use of cutting-edge frameworks and libraries"
+      "Design and implement complete codebases using the most appropriate front-end technologies for each project on a case-by-case basis",
+      "Develop internal projects for use by project managers and other staff, with an emphasis on experimentation with cutting-edge frameworks and libraries",
+      "Regularly interface with the design team to ensure a consistent and high-quality user experience that meets the client’s expectations"
     ],
-    "jobDescription": "Front-end developer working on small teams to meet the needs of a wide variety of clients, ranging from non-profit organizations to large technology companies.",
+    "jobDescription": "Engineer MVPs and web applications as a contractor for a wide variety of clients, ranging from small non-profit organizations to large enterprise technology companies. Responsibilities include:",
     "jobTitle": "Front-End Web Developer",
     "projects": [
+      "Santander Bank",
+      "Continuing Education of the Bar (University of California)",
       "Renaissance Learning",
       "Samsung Strategy and Innovation Center",
       "Third Way",
@@ -41,7 +44,7 @@
       "Helmed the modernization of the main application’s front end, refactoring legacy code, reducing technical debt, and converting the client-facing site to a responsive layout",
       "Designed, architected, and implemented a JavaScript library for searching real estate listings via Leaflet mapping API to be used throughout the various in-house applications"
     ],
-    "jobDescription": "In-house front-end developer for real estate aggregate site targeted at luxury realtors.",
+    "jobDescription": "In-house front-end developer for real estate aggregate site targeted at realtors dealing in luxury properties.",
     "jobTitle": "Front-End Web Developer",
     "projects": [],
     "startDate": "April 2014",

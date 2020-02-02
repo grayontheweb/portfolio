@@ -14,18 +14,25 @@
     ]
   },
   {
-    "id": "FRAMEWORKS",
-    "heading": "Frameworks",
+    "id": "FRONTEND_FRAMEWORKS",
+    "heading": "Front-End Frameworks",
     "items": [
-      "Express.js",
       "React.js",
-      "Redux",
-      "Apollo",
-      "Gatsby",
-      "Jekyll",
       "Angular 1.5",
       "Angular 2",
       "Backbone.js",
+      "Apollo",
+      "Redux"
+    ]
+  },
+  {
+    "id": "OTHER_FRAMEWORKS",
+    "heading": "Other Frameworks",
+    "items": [
+      "Express.js",
+      "Gatsby",
+      "Next.js",
+      "Jekyll",
       "Ruby on Rails"
     ]
   },
